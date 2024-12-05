@@ -1,4 +1,4 @@
-# my-wasp-nest-for-java
+# Learning Java
 Here i will put everything i do to learn java for my final exam (pray for me)
 I will use this as a tracking progress with dates (dd/mm/yy format) and all that
 
