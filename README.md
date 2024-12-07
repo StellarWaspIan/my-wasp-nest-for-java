@@ -22,5 +22,9 @@ TODAY I LEARNED THAT WHITE CHOCOLATE IS NOT CHOCOLATE AT ALL, my hole life has b
 
 any way, i started a "project" about calculating the average of 5 numbers given by the user. the operation is made in a function/method (i dont know the difference yet).
 
+almost 7/12/24, i made the thing work. it wasn't working because i forgot to put "name".java to the program, silly me! I WILL go to sleep.
+
+im sooo sleppy eepy deepy.
+
 
 
