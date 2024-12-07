@@ -21,7 +21,6 @@ public class prom_num {
 
     public static void main(String[] args) {
         prom_num();
-        
     }
 
 }
