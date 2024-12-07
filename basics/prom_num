@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class prom_num {
+    
+    double prom = 0, suma_num = 0;
+    int cant = 0;
+
+    static void carga_num() {
+        Scanner leer_obj = new Scanner(System.in);
+
+        System.out.println("Ingrese la cantidad de numeros a promediar:");
+        cant = leer_obj.nextInt();
+        
+        for (i=0;i<cant;i++) {
+            System.out.println("Ingrese el numero "+i+" a promediar:");
+            suma_num = leer_obj.nextInt() + suma_num;
+        }
+    }
+    
+    static void calc_prom() {
+        prom = suma_num / cant;
+        System.out.println("El promedio de los "+cant+" numeros ingresados es: "+prom);
+    }
+
+    public static void main(String[] args) {
+        carga_num();
+        
+    }
+
+}
