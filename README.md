@@ -26,5 +26,24 @@ almost 7/12/24, i made the thing work. it wasn't working because i forgot to put
 
 im sooo sleppy eepy deepy.
 
+DATE 8/12/24
 
+i skip 1 day, tired.
+
+did make a program to calculate the factorial of a number!!!
+
+and learn stack (sort of), made a program that takes a student name, how many tests he/she has taken, their grades and calcule the average (plus the max and min grade), all to show it in console plus all the grades and if the students pass (average of 7 or higher).
+
+IAMSOTIREDOFTHIS
+
+professor, i hate you with all of my soul
+even god cannot save you from my hatred
+jk
+
+i mean i dont love him but.....
+
+i am going insane. Maybe tomorrow i indulge myself in the mystical art of "Queue" in java.
+
+learning from this, nothing, just pure hatred. 
+VSC STOP SAYING THE CODE IS WRONG I DIDN´T EVEN FINISH TYPING LIKE STOP BEING A CRYBABY AND LET ME WRITE IN PEACE OMG I WILL KILLYOU
 
