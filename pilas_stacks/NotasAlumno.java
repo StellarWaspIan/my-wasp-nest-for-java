@@ -52,9 +52,12 @@ public class NotasAlumno {
                 repetir = leer.nextInt();
             }
         } while (repetir == 1);
+        leer.close();
+
     }
 
     public static void main(String[] args) {
         notasalumno();
+
     }
 }
