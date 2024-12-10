@@ -15,11 +15,13 @@ public class Abm_Pilas {
     Stack<Integer> edades = new Stack<>();
 
     public void CargaAlum() {
+        opcion = leer.nextInt();
         do {
             if (opcion == 1) {
                 System.out.println("Ingrese el nombre del alumno: ");
                 nombre = leer.nextLine();
                 nombres.push(nombre);
+
                 System.out.println("Ingrese la edad del alumno: ");
                 edad = leer.nextInt();
                 edades.push(edad);
@@ -41,6 +43,7 @@ public class Abm_Pilas {
     }
 
     public void MostrarPilas() {
+        opcion = leer.nextInt();
         if (opcion == 4) {
             System.out.println("Lista de Alumnos");
             for (int i = 0; i <= nombres.size(); i++) {
@@ -49,18 +52,18 @@ public class Abm_Pilas {
         }
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Bienvenido al sistema de gestion de alumnos ¿Que desea hacer?");
         System.out.println("1: Cargar un Alumno");
         System.out.println("2: Buscar un Alumno");
         System.out.println("3: Eliminar un Alumno");
         System.out.println("4: Mostrar a todos los Alumnos");
-        opcion = leer.nextInt();
 
-        CargaAlum();
-        MostrarAlum();
-        EliminarAlum();
-        MostrarPilas();
+        Abm_Pilas Obj = new Abm_Pilas(); // Create an object of Main
+        Obj.CargaAlum(); // Call the public method
+        Obj.MostrarAlum();
+        Obj.EliminarAlum();
+        Obj.MostrarPilas();
 
     }
 
