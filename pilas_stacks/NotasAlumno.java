@@ -11,13 +11,13 @@ public class NotasAlumno {
         double promedio = 0;
 
         Scanner leer = new Scanner(System.in);
-        Stack<Integer> examenes = new Stack<>();
 
         do {
             System.out.println("Ingrese el Nombre del Alumno");
             alumno = leer.nextLine();
             System.out.println("Ingrese la cantidad de examenes: ");
             cantexam = leer.nextInt();
+            Stack<Integer> examenes = new Stack<>();
 
             if (cantexam > 0) {
 
