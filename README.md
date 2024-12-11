@@ -37,7 +37,7 @@ and learn stack (sort of), made a program that takes a student name, how many te
 IAMSOTIREDOFTHIS
 
 professor, i hate you with all of my soul
-even god cannot save you from my hatred
+even god cannot save you 
 jk
 
 i mean i dont love him but.....
@@ -47,3 +47,11 @@ i am going insane. Maybe tomorrow i indulge myself in the mystical art of "Queue
 learning from this, nothing, just pure hatred. 
 VSC STOP SAYING THE CODE IS WRONG I DIDN´T EVEN FINISH TYPING LIKE STOP BEING A CRYBABY AND LET ME WRITE IN PEACE OMG I WILL KILLYOU
 
+DATE: 10/12/24
+I made a CRUD (Create, Read, Update(WORKING PROGRESS) and Delete) using Stacks (Pilas). It works. i think i started between 1pm and 2pm, but i finish at 8pm. ALMOST 7 HS OF MAKING THIS (it works).
+
+tomorrow i will start with Queues (Colas) and then make a CRUD.
+
+im getting delusional. i have to thanks Juan Vera (My preceptor) for helping me not give up on this.
+
+I WILL NOT FAIL THIS TEST, EVEN IF MY BODY IS DESTROYED BY SHEER WILL I WILL RAISE, AND WHEN THAT HAPPENS, I  WILL  PASS  THIS  FINAL!
