@@ -59,6 +59,14 @@ im getting delusional. i have to thanks Juan Vera (My preceptor) for helping me 
 
 I WILL NOT FAIL THIS TEST, EVEN IF MY BODY IS DESTROYED BY SHEER WILL I WILL RAISE, AND WHEN THAT HAPPENS, I  WILL  PASS  THIS  FINAL!
 
+DATE: 13/12/24
+
+i have failed.
+
+but i will not give up, in february i can take the exam again. I will do it. From now on i will study, i will succeed no matter what.
+
+good thing is, i didnt do all wrong. Mostly object manipulation (I know Objects are the point of Object Oriented Programing, but.....) so i will reinforce that.
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ESPAÑOL Argentina (Spanish)
