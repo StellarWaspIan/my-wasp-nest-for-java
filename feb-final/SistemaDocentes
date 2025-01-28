@@ -14,6 +14,9 @@
 import java.util.Scanner
 
 public class SistemaDocentes {
+
+    Scanner leer = new Scanner(System.in);
+
     public class Docentes {
         String nombre;
         int dni;
@@ -26,8 +29,8 @@ public class SistemaDocentes {
     }
     }
 
-    static void cargaDocentes () {
-        System.out
+    public void CargaDocentes(){
+        System.out.println("Bienvenido al sistema de carga de docentes!!!")
     }
 
 
