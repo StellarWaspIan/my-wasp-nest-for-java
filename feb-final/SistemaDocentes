@@ -1,0 +1,34 @@
+/*
+ * Este codigo se encarga de crear una clase Docentes para crear un objeto del mismo nombre con los atributos:
+ * - Nombre (String)
+ * - Dni (int)
+ * - Titular (Booleano)
+ * El objetivo del codigo es armar una instancia de "Mesa de Examen" con las siguientes caracteristicas:
+ * - Materia
+ * - Fecha
+ * - Presidente (Docente1, "Solo docentes titulares")
+ * - Vocal1 (Docente2)
+ * - Vocal2 (Docente3)
+ */
+
+import java.util.Scanner
+
+public class SistemaDocentes {
+    public class Docentes {
+        String nombre;
+        int dni;
+        boolean es_titular;
+    
+    public Docentes (String nombre, int dni, boolean es_titular;) {
+        this.nombre = nombre;
+        this.dni = dni;
+        this.es_titular = es_titular;
+    }
+    }
+
+    static void cargaDocentes () {
+        System.out
+    }
+
+
+}
