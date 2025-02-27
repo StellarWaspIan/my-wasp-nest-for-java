@@ -56,6 +56,10 @@ public class Abm_Pilas {
 
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public void EliminarAlum() {
         do {
             int opcion_elim;
@@ -66,7 +70,7 @@ public class Abm_Pilas {
 
             switch (opcion_elim) {
 
-                case 1:
+                case 1 -> {
                     leer.nextLine();
 
                     System.out.println("Ingrese el nombre del alumno a eliminar (Sensible a Mayusculas): ");
@@ -99,8 +103,8 @@ public class Abm_Pilas {
                         nombres.push(auxNombres.pop());
                         edades.push(auxEdades.pop());
                     }
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     leer.nextLine();
 
                     Stack<String> auxNombresid = new Stack<>();
@@ -133,10 +137,9 @@ public class Abm_Pilas {
                         nombres.push(auxNombresid.pop());
                         edades.push(auxEdadesid.pop());
                     }
-                    break;
-                default:
+                }
+                default ->
                     System.out.println("Opción no válida.");
-                    break;
             }
             System.out.println("¿Desea eliminar otro alumno? 1(Si), 0(No)");
             repetir = leer.nextInt();
@@ -163,22 +166,17 @@ public class Abm_Pilas {
             opcion = Obj.leer.nextInt();
             Obj.leer.nextLine();
             switch (opcion) {
-                case 1:
+                case 1 ->
                     Obj.CargaAlum();
-                    break;
-                case 2:
+                case 2 ->
                     Obj.MostrarAlum();
-                    break;
-                case 3:
+                case 3 ->
                     Obj.EliminarAlum();
-                    break;
-                case 4:
+                case 4 ->
                     Obj.MostrarPilas();
-                    break;
-                case 0:
+                case 0 ->
                     System.out.println("Adios");
-                    break;
-                default:
+                default ->
                     System.out.println("Opción no válida. Intente nuevamente.");
             }
         } while (opcion != 0);

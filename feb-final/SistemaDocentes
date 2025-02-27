@@ -1,37 +1,62 @@
-/*
- * Este codigo se encarga de crear una clase Docentes para crear un objeto del mismo nombre con los atributos:
- * - Nombre (String)
- * - Dni (int)
- * - Titular (Booleano)
- * El objetivo del codigo es armar una instancia de "Mesa de Examen" con las siguientes caracteristicas:
- * - Materia
- * - Fecha
- * - Presidente (Docente1, "Solo docentes titulares")
- * - Vocal1 (Docente2)
- * - Vocal2 (Docente3)
- */
+import java.util.Scanner;
+import java.util.Stack;
 
-import java.util.Scanner
+class Profesor {
+    private String nombre;
+    private String dni;
 
-public class SistemaDocentes {
-
-    Scanner leer = new Scanner(System.in);
-
-    public class Docentes {
-        String nombre;
-        int dni;
-        boolean es_titular;
-    
-    public Docentes (String nombre, int dni, boolean es_titular;) {
+    public Profesor(String nombre, String dni) {
         this.nombre = nombre;
         this.dni = dni;
-        this.es_titular = es_titular;
-    }
     }
 
-    public void CargaDocentes(){
-        System.out.println("Bienvenido al sistema de carga de docentes!!!")
+    public String toString() {
+        return "Nombre: " + nombre + ", DNI: " + dni;
     }
+}
 
+public class SistemaDocentes {
+    public static void main(String[] args) {
+        Stack<Profesor> pilaProfesores = new Stack<>();
+        Scanner scanner = new Scanner(System.in);
+        int opcion;
 
+        do {
+            System.out.println("\n--- Menú ---");
+            System.out.println("1. Agregar Profesor");
+            System.out.println("2. Mostrar Profesores");
+            System.out.println("3. Salir");
+            System.out.print("Seleccione una opción: ");
+            opcion = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcion) {
+                case 1:
+                    System.out.print("Ingrese el nombre del profesor: ");
+                    String nombre = scanner.nextLine();
+                    System.out.print("Ingrese el DNI del profesor: ");
+                    String dni = scanner.nextLine();
+                    pilaProfesores.push(new Profesor(nombre, dni));
+                    System.out.println("Profesor agregado correctamente.");
+                    break;
+                case 2:
+                    if (pilaProfesores.isEmpty()) {
+                        System.out.println("No hay profesores en la lista.");
+                    } else {
+                        System.out.println("\nLista de Profesores:");
+                        for (int i = 0; i < pilaProfesores.size(); i++) {
+                            System.out.println(pilaProfesores.get(i));
+                        }
+                    }
+                    break;
+                case 3:
+                    System.out.println("Saliendo...");
+                    break;
+                default:
+                    System.out.println("Opción no válida, intente de nuevo.");
+            }
+        } while (opcion != 3);
+
+        scanner.close();
+    }
 }
